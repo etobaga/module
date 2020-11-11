@@ -3,16 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GroupComponent } from '../adminmodule/group/group.component';
-import { DashboardComponent } from '../adminmodule/dashboard/dashboard.component';
-import { UserComponent } from '../adminmodule/user/user.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    GroupComponent,
-    DashboardComponent,
-    UserComponent
   ],
   imports: [
     BrowserModule,
